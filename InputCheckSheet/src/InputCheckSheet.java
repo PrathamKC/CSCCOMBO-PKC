@@ -20,6 +20,7 @@ public class InputCheckSheet {
 		
 		//realNum = 987654321.987654321f;
 		//realNum = realNum + realNum;
+		//str.equals("hello");
 		//System.out.printf("$%.2f", realNum);
 		System.out.print("The floats go here");
 		realNum = input.nextFloat();
