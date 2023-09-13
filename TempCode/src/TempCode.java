@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class TempCode 
 {
-
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);
@@ -13,7 +12,5 @@ public class TempCode
 		celsius = (fahrenheit - 32) * (0.55555555);
 		kelvin = celsius + 273.15;
 		System.out.println("Celsius: " + celsius + "\n" + "Kelvin : " + kelvin);
-
 	}
-
 }
