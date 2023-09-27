@@ -35,5 +35,4 @@ public class TempCode
 		temp = input.nextDouble();
 		return temp;
 	}
-	
 }

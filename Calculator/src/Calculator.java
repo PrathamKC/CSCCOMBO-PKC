@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Calculator {
 public static Scanner input;
 	public static void main(String[] args) {
@@ -44,7 +43,7 @@ public static Scanner input;
 		return total;
 	}
 
-	public static double divTwo(int a, int b) {
+	public static double divTwo(double a, double b) {
 		double total;
 		if (a < b) {
 			if ( a == 0) {
