@@ -18,9 +18,13 @@ public class Methods
 //		System.out.println("The middle character in the string: " + middle(strx));
 //		System.out.println("Number of vowels in the string: " + vowels(strx));
 		
-		System.out.print("Multiple words go here: ");
-		String str = input.nextLine();
-		System.out.println("Number of words in the string: " + words(str));
+//		System.out.print("Multiple words go here: ");
+//		String str = input.nextLine();
+//		System.out.println("Number of words in the string: " + words(str));
+		
+		System.out.println("number: ");
+		int x = input.nextInt();
+		System.out.println(summ(x));
 	}
 	
 	public static double smallestNumber(double a, double b, double c) 
@@ -119,8 +123,17 @@ public class Methods
 		return count+1;
 	}
 	
-//	public static int sum(int a)
-//	{
-//		
-//	}
+	public static int summ(int a)
+	{
+		int total=0,b=0,c=0;
+		while (a > 0)
+		{
+			c = a + b;
+			System.out.println(a%10);
+			//c = a + b;
+		    a = a/10;
+		    //c = a + b;
+		}
+		return c;
+	}
 }
