@@ -8,7 +8,7 @@ public class Recursion
 		//counting(5);
 		int term = 6;
 		fibArray = new long [term + 1];
-		System.out.println(fib(term)); //wtv # is at the placment given, it will give the # in the fibonnachi sequence. 
+		System.out.println(fib(term)); //wtv # is at the placement given, it will give the # in the fibonnachi sequence. 
 		
 		for (int i = 0; i < 2; i++)
 		{

@@ -6,7 +6,7 @@ public class ArraysPrac
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("How many strings are there?");
+		System.out.println("How many words are there?");
 		int numStrings = input.nextInt();
 
 		//creating 2 arrays with their name here
