@@ -22,6 +22,6 @@ public class InPersonCourse extends Course {
 	@Override
 	public String toString() {
 		return  super.toString() + 
-				 "\n In Person Course room Number: " + roomNumber;
+				 "\nIn Person Course room Number: " + roomNumber;
 	}
 }
