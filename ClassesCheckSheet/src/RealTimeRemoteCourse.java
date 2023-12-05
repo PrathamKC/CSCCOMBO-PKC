@@ -16,6 +16,11 @@ public class RealTimeRemoteCourse extends OnlineCourse {
 	public void setZoomInfo(String zoomInfo) {
 		this.zoomInfo = zoomInfo;
 	}
+	
+	public String dbString() {
+		return "RealTime"  + "," + getCourseNumber()  + "," + getNumStudents() +
+				"," + getMaxStudents() + "," + getCredits() + "," + getEmail() +  "," + zoomInfo;
+	}
 
 	@Override
 	public String toString() {

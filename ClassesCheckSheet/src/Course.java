@@ -6,8 +6,6 @@ public class Course
 	private int credits;
 	private String emailCourseContact;
 	
-	
-	
 	public Course() {
 		super();
 	}
@@ -24,11 +22,9 @@ public class Course
 		return emailCourseContact;
 	}
 
-
 	public void setEmailCourseContact(String emailCourseContact) {
 		this.emailCourseContact = emailCourseContact;
 	}
-
 
 	public String getCourseNumber() {
 		return courseNumber;
@@ -58,9 +54,12 @@ public class Course
 		return credits;
 	}
 
-
 	public void setCredits(int credits) {
 		this.credits = credits;
+	}
+	
+	public String dbString() {
+		return "Course " + "," + numStudents + "," + maxStudents + "," + credits + ",";
 	}
 
 	@Override

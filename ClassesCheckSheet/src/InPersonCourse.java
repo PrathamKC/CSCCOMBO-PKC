@@ -18,6 +18,10 @@ public class InPersonCourse extends Course {
 	public void setRoomNumber(int roomNumber) {
 		this.roomNumber = roomNumber;
 	}
+	
+	public String dbString() {
+		return "InPerson" + "," + getCourseNumber()  + "," + getNumStudents() + "," + getMaxStudents() + "," + getCredits() + "," + roomNumber;
+	}
 
 	@Override
 	public String toString() {
