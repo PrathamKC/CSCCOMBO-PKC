@@ -6,7 +6,7 @@ public class NumberGuesser
 	{
 		Scanner input = new Scanner(System.in);
 		Random realNum = new Random();
-		int random = realNum.nextInt(10), userGuess;
+		int random = realNum.nextInt(1,6), userGuess;
 		
 		
 		System.out.println("Guess a random number: ");
